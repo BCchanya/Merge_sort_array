@@ -30,3 +30,6 @@ export function merge(
 
   return result;
 }
+
+//เทสสสสสสสส
+console.log(merge([9, 7, 5], [1, 3, 4], [2, 6, 8]));
