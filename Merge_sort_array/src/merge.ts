@@ -32,4 +32,4 @@ export function merge(
 }
 
 //เทสสสสสสสส
-console.log(merge([9, 7, 5], [1, 3, 4], [2, 6, 8]));
+console.log(merge([-1, -3, -5], [-4, 0], [-2, -6]));

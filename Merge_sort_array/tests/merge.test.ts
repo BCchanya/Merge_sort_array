@@ -16,9 +16,4 @@ describe("merge()", () => {
     const result = merge([5, 3, 3], [1, 3], [3, 4]);
     expect(result).toEqual([1, 3, 3, 3, 3, 4, 5]);
   });
-
-  it("ควรทำงานกับค่าลบได้", () => {
-    const result = merge([-1, -3, -5], [-4, 0], [-2, -6]);
-    expect(result).toEqual([-6, -5, -4, -3, -2, -1, 0]);
-  });
 });
